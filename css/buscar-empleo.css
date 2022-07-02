@@ -1,0 +1,68 @@
+.menu-options{
+    display: flex;
+    margin: 20px 0;
+    gap: 10px;
+}
+
+.added-oferts{
+    width: 100%;
+}
+
+.menu-filter{
+    display: flex;
+    flex-direction: column;
+    background-color: #0d30594f;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 300px;
+    gap: 30px;
+    padding:  20px 8px;
+}
+
+
+.menu-filter-items{
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+}
+
+.menu-filter .title{
+    color: white;
+    font-size: 20px;
+    
+}
+
+.menu-filter .more{
+    color: white;
+    
+}
+
+.menu-filter label{
+    color: gainsboro;
+}
+
+
+
+.menu-oferts{
+    display: flex;
+    flex-direction: column;
+}
+
+.number-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.number-page a{
+    font-size: 20px;
+}
+
+.number-page-selected{
+    background-color: #1D69BF;
+    width: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+

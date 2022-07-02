@@ -1,0 +1,42 @@
+.Opportunity-sector{
+    display: grid;
+    grid-template-rows: repeat(3,auto);
+    gap: 20px;
+}
+.Opportunity-sector div{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+    
+    align-items: center;
+    justify-items: center;
+    gap: 50px;
+}
+.Opportunity-sector div a {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    width: 90%;
+    height: 250px;
+    padding: 10px;
+}
+.Opportunity-sector div a p{
+    color: black;
+    font-weight: bold;
+    margin: auto;
+}
+.Opportunity-sector  .see-more {  
+    text-decoration:underline;
+    padding: 20px 0 ;
+    font-size: 24px;
+}
+.Opportunity-sector img{
+    min-height: 80%;
+    height: 80%;
+    width: 100%;
+}
+.Opportunity-sector a {
+    text-align: center;
+    margin: auto;
+ }

@@ -1,0 +1,48 @@
+body{
+    height: 100%;
+}
+main{
+    max-width: 1440px;
+    margin: auto;
+}
+.encabezado{
+    display: flex;
+    flex-direction: column;
+    background-color: #0D3159;
+    padding: 50px;
+}
+.encabezado-items{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    background-color: #0D3159;
+    gap: 50px;
+    max-width: 1000px;
+    padding: 50px;
+}
+
+.btn{
+    width: auto;
+    background-color: #1E746F;
+}
+
+.menu-info{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    
+}
+
+.publisher-items{
+    width: 300px;
+    margin: 10px ;
+}
+
+.menu-info-publisher{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+}

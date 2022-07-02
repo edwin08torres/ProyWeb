@@ -1,0 +1,13 @@
+
+.btn-area{
+    display: flex;
+    justify-content: center;
+}
+
+.user-name{
+    gap: 10px 0;
+}
+
+.password{
+    gap: 10px 0;
+}

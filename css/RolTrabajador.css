@@ -1,0 +1,125 @@
+.nav-menu-btnIni{
+    border-radius: 10px;
+    width: auto;
+}
+
+.perfilEmpresa{
+    display: flex;
+    margin: auto;
+    max-width: 1200px;
+    height: 1000px;
+    gap: 20px;
+}
+.PaneldeControl{
+    border: 1px solid white;
+    border-radius: 10px;
+    min-width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #0d305979 ;
+}
+
+.PaneldeControlMenu{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+}
+
+.panel {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+li{
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.subPanelControl{
+    padding: 20px;
+    width: 100%;
+}
+
+.subPanelHeader{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.OfertasEnviadas{
+    display: flex;
+    
+}
+#OfertasEnviadasInfo{
+    display: grid;
+    grid-template-rows: auto-fit;
+    width: 100%;
+}
+
+th, td{
+    text-align: left;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+th:hover{
+    cursor:pointer ;
+}
+
+tr a {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.ConfiguraciónDeCuenta{
+    display: grid;
+    grid-template-rows: repeat(auto-fit,minmax(300px, 1fr));
+}
+.ConfiguraciónDeCuenta1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+
+}
+.ConfiguraciónDeCuenta1Info{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 10px;
+    margin: auto;
+}
+
+.ConfiguraciónDeCuenta2{
+    display: flex;
+    margin: auto;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+
+.user-name{
+    gap: 10px;
+}
+
+.text-boxArea{
+    height: 100px;
+}
+
+.CambiarContraseniasubPanel{
+    
+    margin: 30px;
+}
+
+.CambiarContraseniasubPanel1{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    gap: 10px;
+}
+
+#OfertasEnviadasInfoMore, #OfertasEnRevisión, 
+#OfertasConfirmadas, #ConfiguraciónDeCuenta,
+#CambiarContrasenia{
+    display: none;
+}

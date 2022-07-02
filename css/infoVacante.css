@@ -1,0 +1,84 @@
+.vacante {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vacante .container {
+    min-height: 70vh;
+    min-width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.vacante .container .title{
+    font-size: 1.8rem;
+    margin-top: 3%;
+}
+
+.vacante .container .form {
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 1.8rem;
+   
+    min-width: 60vw;
+    padding: 5%;
+}
+
+.vacante .container .form .col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.4rem;
+}
+
+.vacante .container .form .col .col-sub label {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 1%;
+    /* width: 100%; */
+}
+
+.vacante .container .form .col .col-sub .input input {
+    padding: 3%;
+    width: 90%;
+    color: #000;
+    font-size: 1.2rem;
+}
+
+.vacante .container .form .inputext {
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.vacante .container .form .inputext label {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.vacante .container .form .inputext textarea {
+    width: 100%;
+    padding-top: 1%;
+    margin-top: 1%;
+    height: 20vh;
+   color: #000;
+    font-size: 1.2rem;
+    padding-left: 1%;
+}
+
+.vacante .container .form button {
+    width: 20%;
+    min-height: 5vh;
+    color: #fff;
+    background: #0d3059F0;
+    margin-left: 44%;
+    font-size: 1.4rem;
+}

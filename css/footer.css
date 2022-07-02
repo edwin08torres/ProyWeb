@@ -1,0 +1,76 @@
+footer {
+   background-color: #0d3059F0;
+   align-self: flex-end;
+ 
+}
+
+.footer {
+   display: flex;
+   flex-direction: column;
+   min-height: 300px;
+   font-size: 20px;  
+   margin-top: 40vh;
+}
+
+.footer-div {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(200px , 1fr));
+   max-width: 1000px;
+   justify-content: center;
+   margin: auto;
+   padding: 10px;
+}
+
+.footer-div >div {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+}
+
+.footer h5 {
+   color: #CBBE46;
+   align-items: center;
+   justify-items: center;
+   font-size: 24px;
+}
+
+.footer>h5 {
+   text-align: center;
+   margin: 10px;
+   border-top: 1px dotted white;
+}
+
+.footer a {
+   text-decoration: underline;
+   font-weight: lighter;
+}
+
+
+
+
+/*.frame-main :hover{
+    border: 1px solid yellow;
+}
+
+.footer :hover{
+    border: 1px solid yellow;
+ }
+ .added-oferts :hover{
+    border: 1px solid white;
+}*/
+
+@media (max-width: 800px) {
+   .footer-div {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 10px;
+      gap: 20px;
+      justify-items: start;
+   }
+
+   .footer-div > div {
+      max-width: 300px;
+      text-align: center;
+
+   }
+}

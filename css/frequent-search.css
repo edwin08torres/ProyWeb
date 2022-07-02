@@ -1,0 +1,29 @@
+.frequent-search {
+    display: grid ;
+    grid-template-rows: repeat(2,auto);
+}
+
+.frequent-search-items{
+    display: grid ;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    justify-items: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.frequent-search-items a {
+    background-color: #034974;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 18px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 60px;
+    min-width: 300px;
+}
+
+.frequent-search-items :hover {
+    border: 1px solid white;
+    background-color: white;
+    color: #034974;
+}

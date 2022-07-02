@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    color: white;
+    font-size: auto;
+}
+
+
+
+a:hover , li:hover{
+    cursor: pointer;
+}
+body{
+    background-image: url("../images/blue-1634110.png");
+    background-color: #0D3159;
+    background-repeat: no-repeat;
+    background-position:center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+
+.list {
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+.bar{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    height: 50px;
+}
+
+.frame-main{
+    display: flex;
+    flex-direction: column;
+    max-width: 1240px;
+    margin: auto;
+    padding: 50px 100px;
+    gap: 50px;
+}
+
+.frame-main h4{
+    font-size: 24px;
+}
+.frame-main h3{
+    font-size: 36px;
+}
+
+.publisher {
+    margin: auto;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.signup-form-user, 
+.login-form , 
+.signup-form-company{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #0D3159;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, 0.2);
+    padding: 50px;
+    display: none;
+    opacity: 0;
+}
+
+.form1 .close{
+    text-align: right;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.form1 form{
+    display: block;
+    margin: auto;
+}
+.signup-form-user.active, 
+.login-form.active , 
+.signup-form-company.active{
+    top: 50vh;
+    transition: .5s;
+    display: block;
+    opacity: 1;
+    width: 50vw;
+}
+
+.container.active{
+    filter: blur(20px);
+    transition: .5s;
+    pointer-events: none;
+}
+
+
+/* Reloj CSS */
+
+.relojFooter{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    
+}
+
+.wrap {
+    font-size: 10px;
+    width: auto;
+    max-width: 1000px;
+    /* margin:auto; */
+    
+}
+
+.widget {
+    width: 100%;
+    margin-top: 2.0em;
+    /* margin: 1.5em; */
+
+
+    /* margin:32px; */
+    
+}
+
+.widget p {
+    display: inline-block;
+    line-height: 1em;
+}
+
+.fecha{
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 0.3125rem;
+    /*margin-bottom: 5px;*/
+    background: rgb(0, 0, 0, .5);
+    padding: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+    width: 100%;
+}
+
+.reloj {
+    width: 100%;
+    padding: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 3em;
+    text-align: center;
+    background: rgba(0, 0, 0, .5);
+}
+
+.reloj .caja-segundos {
+    display: inline-block;
+}
+
+.reloj .segundos,
+.reloj .ampm {
+    font-size: 1rem;
+    display: block;
+}
+
+
+
+@media (max-width: 600px) {
+    .frame-main, .profile-info, .about , main{
+        padding: 30px 5px ;
+    }
+}
+
+
+a {
+    text-decoration: none !important;
+    color: #fff !important;
+}

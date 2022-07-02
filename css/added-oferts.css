@@ -1,0 +1,77 @@
+.added-oferts{
+    display: grid ;
+    grid-template-rows: repeat(3,auto);
+    min-height: 400px;    
+}
+
+.added-oferts > div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+    gap: 10px;    
+}
+.added-oferts a div div{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    gap: 10px;
+}
+
+.added-oferts div a {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #0d3059F0;
+    padding: 10px;
+    height: auto;
+}
+
+.added-oferts div a h1{
+    display: grid;
+    grid-template-rows: auto;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0 0 10px 0;
+    font-size: 20px;
+    min-height: 50px;
+    max-height: 100px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+
+.added-oferts div a > p{
+    text-align:justify;
+    min-height: 100px;
+    max-height: 200px;
+    margin: 10px;
+}
+
+.added-oferts div a > div {
+    border-top: 1px solid white;
+}
+
+.added-oferts div a div div {
+    align-items: center;
+}
+
+.added-oferts div a div p {
+    margin: 10px 0 0 10px;
+    font-size: 14px;
+    
+}
+.time{
+    color: #ACF082;
+    font-size: 12px;
+    text-align: right;
+}
+
+.added-oferts > a {
+    text-align: center;
+    margin: auto;
+    text-decoration: underline;
+    font-size: 20px;
+}
+.see-more {  
+    text-decoration:underline;
+    padding: 20px 0 ;
+    font-size: 24px;
+}
+

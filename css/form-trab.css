@@ -1,0 +1,97 @@
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    max-width: 1440px;
+    margin: auto;
+    padding: 10px;
+}
+
+.profile-info-colums {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.profile-info-img {
+    display: flex;
+    flex-direction: column;
+    max-width: auto;
+    align-items: center;
+}
+
+.profile-info-img img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.profile-info-img .canvas{
+    display: none;
+}
+.est-re {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-save {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.btn-file {
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.profile-image.active {
+    display: none;
+}
+
+.profile-image {
+    display: block;
+}
+
+video.webcam {
+    display: none;
+    width: 100%;
+    height: 300px;
+}
+
+
+.btn-area-camera{
+    display: flex;
+}
+
+.nav-menu-btnIni {
+    width: auto;
+}
+
+.btnTakePhoto {
+    display: none;
+}
+
+.btnTakePhoto.active {
+    display:flex;
+}
+
+.btnCamera.active {
+    display: none;
+}
+
+input[type="file"]{
+    display: none;
+}
+
+.linkedin{
+    font-size: 20px;
+}
+
+.user{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
